@@ -1,0 +1,76 @@
+
+body {
+    background: #333;
+    color: white; 
+}
+
+
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.7; 
+}
+#homesection
+{
+    background: url(../img/home.jpg) center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*    background-position: center;*/
+    min-height: 700px;
+
+}
+#homesection .fa, #createmain .fa
+{
+    background: white;
+    color: #008ed6;
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.dark-overlay
+{
+    background: rgba(0,0,0,0.7);
+    min-height: 700px;
+}
+
+.card-form
+{
+    opacity: 0.8;
+}
+.home-inner
+{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+
+#exploremain .fa, #sharemain .fa
+{
+    background: #333;
+    color: white;
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+#createmain .fa
+{
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #homesection h1
+    {
+        text-align: center;
+        font-size: 35px;
+    }
+}
